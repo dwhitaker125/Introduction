@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Page with Border</title>
+    <title>NBA Height Converter</title>
     <link rel="stylesheet" href="intro.css">
 
 </head>
 <body>
     <div class="bordered-box">
-        <h1>Hello, World!</h1>
-        <p>This is a sample box with a border.</p>
-        <button id="left"> left</button>
-        <button id="right"> right</button>
+        <h1>NBA Height Converter</h1>
+        <p>Welcome to my website.</p>
 
-    </div>
+        
+        <label for="input">Enter Height:</label>
+        <input type="number" id="input">
+        <button onclick="calculateHeight()">Compare Height</button>
+    
+        <p id="result"></p> <!-- Placeholder for displaying the result -->
+    
+        </div>
     <script src="intro.js"> </script>
 </body>
 </html>

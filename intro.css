@@ -1,10 +1,16 @@
 .bordered-box {
     width: 300px;
-    height: 200px;
+    height: 300px;
     border: 2px solid #000; /* Black solid border */
     padding: 20px;
     margin: 20px auto; /* Center the div horizontally */
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
     text-align: center;
     font-family: Arial, sans-serif;
+}
+
+.btn-change {
+    font-size: medium;
+    width: 100px;
+    text-align: center;
 }
