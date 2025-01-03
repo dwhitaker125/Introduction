@@ -1,6 +1,8 @@
 /* Border Box  */
 
-
+p {
+    color:orange;
+}
  
 .bordered-box {
     width: 300px;
