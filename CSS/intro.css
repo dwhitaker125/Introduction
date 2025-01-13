@@ -1,25 +1,37 @@
-.columns {
-    display: flex;
-    justify-content: space-around;
-    background-color: #808080;
-    color: black;
+/* Border Box  */
+
+p {
+    color:orange;
+}
+ 
+
+/* Borders for the NBA Height Converter*/
+.bordered-box {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000; /* Black solid border */
     padding: 20px;
-}
-.column {
-    flex: 10;
-    margin: 10px;
+    margin: 20px auto; /* Center the div horizontally */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
     text-align: center;
-    border: 2px solid orange;
-    color:black;
-    padding: 1px;
+    font-family: Arial, sans-serif;
+    border-color: orange;
+    color:orange;
 }
+
+.btn-change {
+    font-size: medium;
+    width: 100px;
+    text-align: center;
+}
+
 
 body {
     background-color: black; /* Light gray background */
     color: orange;
     font-family: Arial, sans-serif;
   }
-  /* Navigation Bar */
+  
   .navbar {
     margin-bottom: 20px;
   }
@@ -69,13 +81,4 @@ body {
     padding: 10px;
     background-color: #ffc107;
     color: black;
-  }
-
-  /*For Gif animation*/
-
-  img {
-    margin: 20px;
-    width: 250px;
-    height: 250px;
-
   }
